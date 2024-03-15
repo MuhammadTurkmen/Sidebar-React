@@ -22,7 +22,11 @@ const Sidebar = () => {
         </li>
       })}
     </ul>
-    <ul className='social-icons'></ul>
+    <ul className='social-icons'>
+      {social.map((link) => {
+        
+      })}
+    </ul>
   </aside>
 }
 
