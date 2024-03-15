@@ -13,7 +13,7 @@ const Sidebar = () => {
       <button className='close-btn' onClick={closeSidebar}>  
         <FaTimes />    
       </button>
-    </div>
+    </div> 
     <ul className='links'>  
       {links.map((link) => {
         const {id, url, text, icon} = link  
