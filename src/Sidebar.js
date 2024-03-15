@@ -22,6 +22,7 @@ const Sidebar = () => {
         </li>
       })}
     </ul>
+    <ul className='social-icons'></ul>
   </aside>
 }
 
